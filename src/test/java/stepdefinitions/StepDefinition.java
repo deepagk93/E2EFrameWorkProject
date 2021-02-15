@@ -25,6 +25,7 @@ public class StepDefinition extends BaseScript {
 		LoginPage lop = new LoginPage(driver);
 		lop.email().sendKeys(username);
 		lop.password().sendKeys(password);
+		System.out.println("Entered username and password");
 		lop.login().click();
 	}
 
