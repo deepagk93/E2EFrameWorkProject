@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="155727" started-at="2021-02-15T12:02:39 IST" finished-at="2021-02-15T12:05:15 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@7d3a22a9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="155727" started-at="2021-02-15T12:02:39 IST" finished-at="2021-02-15T12:05:15 IST">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@7d3a22a9]" name="setUpClass" is-config="true" duration-ms="11832" started-at="2021-02-15T12:02:39 IST" finished-at="2021-02-15T12:02:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@7d3a22a9]" name="runScenario" duration-ms="79913" started-at="2021-02-15T12:02:51 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-15T12:04:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@7d3a22a9]" name="runScenario" duration-ms="63609" started-at="2021-02-15T12:04:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-15T12:05:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@7d3a22a9]" name="tearDownClass" is-config="true" duration-ms="216" started-at="2021-02-15T12:05:15 IST" finished-at="2021-02-15T12:05:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

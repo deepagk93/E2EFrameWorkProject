@@ -1,0 +1,8 @@
+19:57:25.093 [TestNG-tests-4] INFO  Academy.NavigationBarTest - Navigation Bar Validation successfully Completed
+19:57:29.515 [TestNG-tests-3] INFO  Academy.HomePageTest - URL Hit
+19:57:55.071 [TestNG-tests-3] INFO  Academy.HomePageTest - User login for User: restricteduser@gmail
+19:57:57.638 [TestNG-tests-3] INFO  Academy.HomePageTest - URL Hit
+19:58:02.922 [TestNG-tests-3] INFO  Academy.HomePageTest - User login for User: nonrestricteduser@gmail
+20:37:56.577 [TestNG-tests-3] INFO  Academy.HomePageTest - Browser Initialised
+20:37:56.577 [TestNG-tests-4] INFO  Academy.NavigationBarTest - Browser Initialised
+20:37:56.577 [TestNG-tests-2] INFO  Academy.HeadingTest - Browser Initialised
