@@ -38,21 +38,23 @@ public class StepDefinition extends BaseScript {
 	@And("^Navigate to the url \"([^\"]*)\"$")
 	public void navigate_to_the_url_something(String strArg1) throws Throwable {
 		driver.get(strArg1);
-		
+		System.out.println("Desired url hit");
+
 	}
 
 	@And("^Click on login link in Home Page$")
 	public void click_on_login_link_in_home_page() throws Throwable {
 		LandingPage lp = new LandingPage(driver);
-		if(lp.popUpList().size()>0) {
+		if (lp.popUpList().size() > 0) {
 			lp.popUp().click();
 		}
-		lp.login();	
+		lp.login();
 	}
-	
-	 @And("^Close Browser$")
-	    public void close_browser() throws Throwable {
-	        driver.quit();
-	    }
+
+	@And("^Close Browser$")
+	public void close_browser() throws Throwable {
+		driver.quit();
+		System.out.println("All browsers closed");
+	}
 
 }
